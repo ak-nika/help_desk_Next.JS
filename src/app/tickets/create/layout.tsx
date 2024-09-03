@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tickets Page",
+  title: "Create New Ticket",
 };
 
 export default function RootLayout({

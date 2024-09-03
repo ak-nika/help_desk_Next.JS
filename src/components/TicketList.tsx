@@ -24,7 +24,6 @@ export default async function TicketList() {
           title: string;
           body: string;
           priority: string;
-          user_email: string;
         }) => (
           <div key={ticket.id} className="card my-5">
             <Link href={`/tickets/${ticket.id}`}>
